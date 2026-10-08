@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+
+}
+
+.search-box{
+
+ position: relative;
+ margin-top: 50px;
+ width: 300px;
+
+}
+
+
+input{
+    width: 300px;
+    height: 38px;
+    margin-top: 50px;
+    color: blue;
+    background-color:aliceblue;
+    font-size: larger;
+    border-radius: 8px;
+    border: none;
+}
+
+input:hover{
+    border: 2px solid crimson;
+    cursor: text;
+}
+
+#results{
+    position: absolute;
+    top: 92px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
+}
+
+#results p{
+    margin: 0;
+    padding: 10px;
+    color: rgb(34, 12, 119);
+    background-color: white;
+}
+
+#results p:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
